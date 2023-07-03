@@ -1,10 +1,10 @@
 {
-  "name": "Next Chrome",
-  "description": "Next.js Chrome Extension starter",
+  "name": "EZetsu - Sposhi",
+  "description": "The BlindSpot Collector",
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
-    "default_title": "Next.js app",
+    "default_title": "Algorithimo Sposhi",
     "default_popup": "index.html"
   }
 }

@@ -1,9 +1,14 @@
+.body{
+    background: #12121e;
+    color: white;
+}
+
 .container {
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -42,7 +47,13 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+.desc {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .title,
@@ -113,4 +124,23 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+.pred_seed{
+  color: rgb(153, 38, 38);
+  padding: 0px 16px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  font-size: 80%;
+  background-color: #ffe4e4;
+}
+
+.pred_out{
+  color: rgb(124, 26, 64);
+  padding: 0px 16px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  font-size: 80%;
+  background-color: #eeb9fa;
 }
